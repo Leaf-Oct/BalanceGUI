@@ -49,3 +49,5 @@ go build
 ```bash
 go build -ldflags "-s"
 ```
+
+因为该客户端目前开发和使用环境是Ubuntu，故release中只提供了编译好的linux下可执行文件，如有其它平台的需要请自行编译。
