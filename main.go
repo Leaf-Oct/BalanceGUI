@@ -25,7 +25,7 @@ import (
 type Transaction struct {
 	Date        string  `json:"date"`
 	Description string  `json:"description"`
-	IsExpanse   bool    `json:"isExpanse"`
+	IsExpense   bool    `json:"isExpense"`
 	Number      float64 `json:"number"`
 	Balance     float64 `json:"balance"`
 }
