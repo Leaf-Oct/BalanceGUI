@@ -135,7 +135,7 @@ func main() {
 		dialog.ShowConfirm("确认提交?", transactionToJsonObj(*reayForSubmit), func(b bool) {
 			if b {
 				submitButton.Disable()
-				go postTransaction("a"+year+"-"+month, *reayForSubmit)
+				go postTransaction("a"+year+"_"+month, *reayForSubmit)
 			}
 		}, myWindow)
 		// submitButton.Disable()
